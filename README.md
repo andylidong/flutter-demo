@@ -9,8 +9,6 @@
 
 照着这个 demo ，两三天做下来，一周入门不是问题。
 
-现在我使用 Flutter 已经 5，6 个月了。我的更多 Flutter 的分享在：https://zhuanlan.zhihu.com/flutter
-
 ## APP截图
 <table>
   <tr>
