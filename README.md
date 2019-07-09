@@ -1,13 +1,8 @@
 
-# 知乎- Flutter 高仿版 UI
+# 知乎 - Flutter UI
 
 使用 Flutter 模仿的知乎黑色主题的 UI。
 
-在 “我的” 页中可以修改日间和夜间模式。
-
-这是我当初初学时做的一个 demo ，看着代码做一遍基本可以入门 Flutter，学会 APP 布局。
-
-照着这个 demo ，两三天做下来，一周入门不是问题。
 
 ## APP截图
 <table>
