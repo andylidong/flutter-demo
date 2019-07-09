@@ -16,8 +16,12 @@
   <tr>
     <td><img src="./image/1.png"></td>
     <td><img src="./image/2.png"></td>
+  </tr>
+    <tr>
     <td><img src="./image/3.png"></td>
     <td><img src="./image/4.png">	</td>
+  </tr>
+    <tr>
     <td><img src="./image/5.png">	</td>
   </tr>
 </table>
