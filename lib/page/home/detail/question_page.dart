@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:zhihu/common/global_config.dart';
+import 'package:zhihu/common/config/global_config.dart';
 import 'package:zhihu/page/home/detail/reply_page.dart';
 
 class QuestionPage extends StatefulWidget {

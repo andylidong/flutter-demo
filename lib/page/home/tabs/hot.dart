@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:zhihu/model/home/question.dart';
 import 'package:zhihu/page/home/detail/question_page.dart';
-import 'package:zhihu/common/global_config.dart';
+import 'package:zhihu/common/config/global_config.dart';
 
 class Hot extends StatefulWidget {
   @override

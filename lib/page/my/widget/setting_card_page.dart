@@ -1,13 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:zhihu/common/global_config.dart';
-
+import 'package:zhihu/common/config/global_config.dart';
+import 'package:zhihu/common/event/event.dart';
+import 'package:zhihu/common/event/theme_event.dart';
 
 // ignore: must_be_immutable
 class SettingCardPage extends StatefulWidget {
-  var settingTheme;
-
-  SettingCardPage(this.settingTheme);
-
   @override
   _SettingCardState createState() => new _SettingCardState();
 }
@@ -79,7 +76,7 @@ class _SettingCardState extends State<SettingCardPage> {
           new Container(
             width: MediaQuery.of(context).size.width / 4,
             child: new FlatButton(
-                onPressed: () => widget.settingTheme(),
+                onPressed: () => eventBus.fire(new ThemeEvent("修改主题")),
                 child: new Container(
                   child: new Column(
                     children: <Widget>[

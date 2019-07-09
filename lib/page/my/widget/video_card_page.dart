@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:zhihu/common/global_config.dart';
+import 'package:zhihu/common/config/global_config.dart';
 
 class VideoCardPage extends StatefulWidget {
   @override

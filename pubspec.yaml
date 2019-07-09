@@ -7,7 +7,50 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^0.1.0
+#  cupertino_icons: ^0.1.0
+#  shared_preferences: ^0.5.1+1
+#  fluttertoast: ^3.0.1
+#  json_annotation: ^2.4.0
+#  flutter_redux: ^0.5.3
+#  device_info: ^0.4.0+1
+#  connectivity: ^0.4.3+1
+#  url_launcher: ^5.0.2
+#  flutter_markdown: ^0.2.0
+#  share: ^0.6.0+1
+#  flutter_spinkit: ^3.1.0
+#  flutter_webview_plugin: ^0.3.5
+#  sqflite: ^1.1.5
+#  pub_semver: ^1.4.2
+#  flutter_statusbar: ^0.0.1
+#  flutter_svg: ^0.13.0+1
+#  flutter_slidable: ^0.5.0
+#  dio: ^2.1.4
+  event_bus:  ^1.1.0
+#  flutter_cache_manager: ^0.3.2
+#  path_provider: ^0.5.0+1
+#  permission_handler: 3.0.2
+#  scoped_model: ^1.0.1
+#  package_info: ^0.4.0+3
+#  rxdart: ^0.22.0
+#  android_intent: ^0.3.0
+#  webview_flutter: ^0.3.7+1
+#  bezier: ^1.1.2
+#  provider: ^3.0.0+1
+#  flare_flutter:
+#    git:
+#      url: https://github.com/CarSmallGuo/Flare-Flutter.git
+#      path: flare_flutter
+#      ref: c7a59c9cff8887abb89f2c36b3911f5fbdf189c8
+#  flutter_localizations:
+#    sdk: flutter
+#  flutter_lottie:
+#    git:
+#      url: https://github.com/CarSmallGuo/flutter_lottie.git
+#      ref: 3adb18f2e2a45b8dbdebc0437e9a4db3f6ff32b8
+#  photo_view:
+#    git:
+#      url: https://github.com/CarSmallGuo/photo_view.git
+#      ref: master
 
 dev_dependencies:
   flutter_test:

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:zhihu/common/global_config.dart';
+import 'package:zhihu/common/config/global_config.dart';
+import 'package:zhihu/common/event/event.dart';
+import 'package:zhihu/common/event/theme_event.dart';
 import 'package:zhihu/page/my/widget/idea_card_page.dart';
 import 'package:zhihu/page/my/widget/info_card_page.dart';
 import 'package:zhihu/page/my/widget/service_card_page.dart';
@@ -13,6 +15,15 @@ class MyPage extends StatefulWidget {
 }
 
 class _MyPageState extends State<MyPage> {
+
+  _MyPageState() {
+    eventBus.on<ThemeEvent>().listen((event) {
+      setState(() {
+        GlobalConfig.settingTheme();
+      });
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return new SearchPage("", body());
@@ -25,18 +36,12 @@ class _MyPageState extends State<MyPage> {
           children: <Widget>[
             new InfoCardPage(),
             new ServiceCardPage(),
-            new SettingCardPage(this.settingTheme),
+            new SettingCardPage(),
             new VideoCardPage(),
             new IdeaCardPage()
           ],
         ),
       ),
     );
-  }
-
-  settingTheme() {
-    setState(() {
-      GlobalConfig.settingTheme();
-    });
   }
 }
