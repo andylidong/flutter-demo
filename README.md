@@ -12,9 +12,12 @@
 现在我使用 Flutter 已经 5，6 个月了。我的更多 Flutter 的分享在：https://zhuanlan.zhihu.com/flutter
 
 ## APP截图
-
-![wei](./image/1.png)
-![wei](./image/2.png)
-![wei](./image/3.png)
-![wei](./image/4.png)
-![wei](./image/5.png)
+<table>
+  <tr>
+    <td><img src="./image/1.png"></td>
+    <td><img src="./image/2.png"></td>
+    <td><img src="./image/3.png"></td>
+    <td><img src="./image/4.png">	</td>
+    <td><img src="./image/5.png">	</td>
+  </tr>
+</table>
